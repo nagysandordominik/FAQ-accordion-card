@@ -1,6 +1,7 @@
 html{
     background: rgb(94,0,255);
 background: linear-gradient(151deg, rgba(94,0,255,1) 15%, rgba(255,0,254,1) 100%);
+font-family: 'Kumbh Sans', sans-serif;
 
 }
 
@@ -9,5 +10,16 @@ background: linear-gradient(151deg, rgba(94,0,255,1) 15%, rgba(255,0,254,1) 100%
     width: 1000px;
     height: 600px;
     display: flex;
+    
     border-radius: 30px;
+    padding: 10px;
+}
+
+.faq-table{
+    float: right;
+
+}
+
+.faq-table ol {
+    list-style: none;
 }
