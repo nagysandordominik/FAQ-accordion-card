@@ -27,12 +27,9 @@ main{
     margin: 40px 100px;
 }
 
-.faq-table ol{
-    list-style: none;
-}
-.faq-table li{
-    margin-bottom: 3em;
-    border-bottom: solid 1px
+.faq-table p{
+    padding: 15px 0px 15px;
+    border-bottom: solid 1px grey
 }
 .dashboard img{
     position: absolute;
