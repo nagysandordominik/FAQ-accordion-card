@@ -1,25 +1,36 @@
 html{
     background: rgb(94,0,255);
-background: linear-gradient(151deg, rgba(94,0,255,1) 15%, rgba(255,0,254,1) 100%);
-font-family: 'Kumbh Sans', sans-serif;
-
+    background: linear-gradient(151deg, rgba(94,0,255,1) 15%, rgba(255,0,254,1) 100%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.white-table{
+.dashboard{
     background-color: white;
     width: 1000px;
-    height: 600px;
+    height: 500px;
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-between;
     border-radius: 30px;
     padding: 10px;
 }
 
 .faq-table{
-    float: right;
-
+    align-items:flex-end;
 }
 
-.faq-table ol {
+.faq-table ol{
     list-style: none;
+}
+
+.dashboard img{
+    width: 300px;
+    align-self: start;
 }
