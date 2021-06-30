@@ -24,12 +24,12 @@ main{
 .faq-table{
     align-items: center;
     justify-content: flex-end;
-    margin: 40px 100px;
+    margin: 40px 180px;
 }
 
 .faq-table p{
     padding: 15px 0px 15px;
-    border-bottom: solid 1px grey
+    border-bottom: solid 0.2px grey 
 }
 .dashboard img{
     position: absolute;
