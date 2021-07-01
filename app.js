@@ -1,8 +1,9 @@
-function showText() {
-    var x = document.getElementById("hiddenText");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+questions = document.querySelectorAll('dt')
+
+questions.forEach(question => {
+    question.addEventListener('click', () => {
+        question.classList.toggle('active')
+        question.nextElementSibling.classList.toggle('active')
+        question.children[0].classList.toggle('active')
+    })
+})

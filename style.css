@@ -27,9 +27,15 @@ main{
     margin: 40px 180px;
 }
 
-.faq-table p{
-    padding: 15px 0px 15px;
-    border-bottom: solid 0.2px grey 
+dt{
+    padding: 20px 0px ;
+    border-bottom: solid 0.2px grey ;
+    transition: all .5s;
+    color: hsl(237, 12%, 33%);
+}
+
+dt:hover{
+    color: hsl(14, 88%, 65%);
 }
 .dashboard img{
     position: absolute;
@@ -38,4 +44,11 @@ main{
     width: 400px;
     position: absolute;
     align-self: start;
+}
+
+dd{
+    display: none;
+}
+.faq-table img{
+    width: 30px;
 }
