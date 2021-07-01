@@ -6,54 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400&display=swap" rel="stylesheet">
-  </link>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
 
 </head>
 
 <body>
-  <main>
-    <div class="dashboard">
-      <div class="illustration">
-        <img src="images\bg-pattern-desktop.svg">
-        <img src="images\illustration-woman-online-desktop.svg" id="mainillustration" alt="Illustration">
-      </div>
-      <div class="faq-table">
-        <h1>FAQ</h1>
-        <dt>How many team members can I invite? <img src="images\icon-arrow-down.svg" alt="arrow">
+  <div class="card">
+    <div class="card-image">
+      <img src="images/illustration-box-desktop.svg" alt="Box" class="img-box" />
+    </div>
+    <div class="faq">
+      <h1>FAQ</h1>
+
+      <dl>
+        <dt>How many team members can I invite? <img src="images/icon-arrow-down.svg" alt="Seta para baixo">
         </dt>
-        <dd> You can invite up to 2 additional users on the Free plan. There is no limit on
+        <dd>You can invite up to 2 additional users on the Free plan. There is no limit on
           team members for the Premium plan.</dd>
 
-        <dt>What is the maximum file upload size? <img src="images\icon-arrow-down.svg" alt="arrow">
-          </p>
+        <hr>
+
+        <dt>What is the maximum file upload size? <img src="images/icon-arrow-down.svg" alt="Seta para baixo">
+        </dt>
         <dd>No more than 2GB. All files in your account must fit your allotted storage space.</dd>
 
-        <dt>How do I reset my password? <img src="images\icon-arrow-down.svg" alt="arrow"> </dt>
+        <hr>
+
+        <dt>How do I reset my password? <img src="images/icon-arrow-down.svg" alt="Seta para baixo"></dt>
         <dd>Click “Forgot password” from the login page or “Change password” from your profile page.
           A reset link will be emailed to you.</dd>
 
-        <dt>Can I cancel my subscription? <img src="images\icon-arrow-down.svg" alt="arrow"> </dt>
+        <hr>
+
+        <dt>Can I cancel my subscription? <img src="images/icon-arrow-down.svg" alt="Seta para baixo"></dt>
         <dd>Yes! Send us a message and we’ll process your request no questions asked.</dd>
 
-        <dt>Do you provide additional support? <img src="images\icon-arrow-down.svg" alt="arrow">
+        <hr>
+
+        <dt>Do you provide additional support? <img src="images/icon-arrow-down.svg" alt="Seta para baixo">
         </dt>
-        <dd>Chat and email support is available 24/7. Phone lines are open during normal business
-          hours.</dd>
-      </div>
+        <dd>Chat and email support is available 24/7. Phone lines are open during normal business hours.</dd>
+
+        <hr>
+      </dl>
     </div>
-  </main>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Completed by <a href="https://github.com/nagysandordominik">Sándor Nagy</a>.
   </div>
+
   <script src="app.js"></script>
 </body>
 
