@@ -13,9 +13,7 @@ body {
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
 }
-a{
-    color: white;
-}
+
 .card {
     background-color: #fff;
     background-image: url('images/bg-pattern-mobile.svg');
@@ -31,11 +29,12 @@ a{
     z-index: 10;
 }
 
+
 .img-box {
     display: none;
 }
 .card-image {
-    position: fixed;
+    position: absolute;
     background-image: url('images/illustration-woman-online-mobile.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -103,24 +102,26 @@ hr {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 20px;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-.attribution  {
+    padding-bottom: 70px;
     color: white;
-
+    line-height: 30px;
+}
+.attribution a {
+    color: white;
+    background: none;
 }
 
 @media (min-width: 768px) {
     .card {
         display: flex;
         flex-direction: row;
-        background-image: url('/images/bg-pattern-desktop.svg');
+        background-image: url('images/bg-pattern-desktop.svg');
         background-position: -1640% 68%;
         padding: 60px 60px 60px 0;
         font-size: 120%;
